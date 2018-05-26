@@ -5,16 +5,14 @@
 #include "ball_function.h"
 /*
 	Name: Bouncer ball simulation
-	Copyright: NO COPRÝGHT
 	Author: Ali ihsan cengiz
 	Date: 25.03.18 22:26
-	Description: -
 */
 
 int main(int argc, char *argv[]) {
 	
 	struct real_t init;  /* initialize a ball object */
-	node *databasell=NULL;
+	node *databasell=NULL;	// A linear linkedlist to store  feature of ball
 	float x_pos,y_pos,b_veloctiy,b_mass;	
 	int i,j;
 	float timebender,temp;
